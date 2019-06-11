@@ -13,6 +13,8 @@ class Application
       item = @@items.find{|i| i.item == item_name}
  
       resp.write item.price
+      
+      
     end
  
     resp.finish
